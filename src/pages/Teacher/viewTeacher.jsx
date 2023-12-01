@@ -19,7 +19,7 @@ const Teachers = () => {
         const fetchUserData = async () => {
             try {
 
-                const response = await axios.get(`http://localhost:3000/teacherGetData?tutor_id=${tutor_ids}`);
+                const response = await axios.get(`http://52.206.149.246:3000/teacherGetData?tutor_id=${tutor_ids}`);
                 const responseData = response.data;
                 
                 setTutor(responseData);
