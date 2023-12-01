@@ -49,7 +49,7 @@ const Plan = () => {
                             <div className="h-[100px]">
                                 <img
                                     className="  h-full w-full   transition-all duration-300 group-hover:scale-105 "
-                                    src={`http://localhost:3000/${plan.planimage}`}
+                                    src={`http://52.206.149.246:3000/${plan.planimage}`}
                                     alt="Image"
                                    
                                 />

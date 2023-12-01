@@ -153,7 +153,7 @@ const Teachers = () => {
                                     <div className="flex-none">
                                         <div className="md:h-[176px] md:w-[176px] h-[140px] w-[140px] md:ml-0 md:mr-0 ml-auto mr-auto md:mb-0 mb-4 rounded-full ring-4 ring-slate-100 relative">
                                             <img
-                                                src={`http://localhost:3000/${tutor.teacherimage}`}
+                                                src={`http://52.206.149.246:3000/${tutor.teacherimage}`}
                                                 alt="Image"
                                                 className="w-full h-full object-cover rounded-full"
                                             />
