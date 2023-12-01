@@ -5,9 +5,7 @@ import useSidebar from "@/hooks/useSidebar";
 import useSemiDark from "@/hooks/useSemiDark";
 import useSkin from "@/hooks/useSkin";
 
-// import images
-import MobileLogo from "@/assets/logo.png";
-import MobileLogoWhite from "@/assets/logo.png";
+
 
 const SidebarLogo = ({ menuHover }) => {
   const [isDark] = useDarkMode();
@@ -28,13 +26,6 @@ const SidebarLogo = ({ menuHover }) => {
     >
       <Link to="/dashboard">
         <div className="flex items-center space-x-4">
-          {/* <div className="logo-icon">
-            {!isDark && !isSemiDark ? (
-              <img src={MobileLogo} alt="" width="40px" />
-            ) : (
-              <img src={MobileLogoWhite} alt="" />
-            )}
-          </div> */}
 
           {(!collapsed || menuHover) && (
             <div>
